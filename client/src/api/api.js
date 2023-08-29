@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const url = "http://localhost:4000/api/blogs";
+const url = "https://mern-awesome-blog.onrender.com/api/blogs";
 
 export const fetchBlogPosts = () => axios.get(url);
 export const addNewBlogPost = (newBlog) => axios.post(url, newBlog);
